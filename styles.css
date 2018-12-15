@@ -275,6 +275,11 @@ span {
     /* height: 200px; */
 }
 
+ /* to stretch text ? */
+/* .arrow>p {
+    
+} */
+
 .evolutions-atrribute {
     display: inline-block;
     text-align: center;
@@ -369,14 +374,20 @@ span {
         width: 360px;
     }
 
+    h3 {
+        text-align: center;
+        width: 320px;
+    }
     .evolutions {
         background: grey;
         width: 360px;
-        height: 1024px;
+        height: 1200px;
     }
 
     .evolutions-detail {
         display: block;
+        margin-left: 60px;
+        margin-top: 15px;
     }
 
     .arrow {
@@ -384,12 +395,29 @@ span {
         height: 100px;
         font-size: 100px;
         text-align: center;
+        margin: 0;
     }
 
     .arrow>p {
         height: 100px;
         font-size: 100px;
         text-align: center;
+        margin: 0;
+        /* Safari */
+        -webkit-transform: rotate(90deg);
+
+        /* Firefox */
+        -moz-transform: rotate(90deg);
+
+        /* IE */
+        -ms-transform: rotate(90deg);
+
+        /* Opera */
+        -o-transform: rotate(90deg);
+
+        /* Internet Explorer */
+        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
     }
 }
 
